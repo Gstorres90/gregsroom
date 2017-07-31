@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed');
+/*Love the idea of the nav bar giving access to the room at all times */
+#navbar {
+  list-style-type: none;
+  height:60px;
+  width: 100%;
+  font-size:30px;
+  overflow: hidden;
+  color: #FFDAB9;
+  position:absolute;
+  background-color: rgba(0,0,0,0.40);
+  z-index: +2;
+}
+h1{font-family: 'Oswald';}
+/*I decided to use this font to give it an elegant feel because let's face it, this room's a mess */
+p{font-family: 'Roboto';}
+
+.navitems {
+  display:inline-block
+;
+}
+
+
+/*Beige always seemed like a good color to me */
+#allpages 
+  {color:#d2691e;
+font-size:30px;
+background-color: beige;    
+padding: 50px;
+max-width: 1200px;
+margin: 16px;
+    
+  }
+
+
+img {text-align:center; }
+
+/*The background image is used so we can see the room in it's entirety */
+.history {
+  background-image:url("../images/theroom.jpg");
+         height: 100vh;
+         background-repeat:no-repeat;
+         background-size:cover;
+         color:#FFFFFF;
+}
+#titlebelts
+{z-index: +1}
+#wrestling
+{z-index:0;}
+#wrestlingend
+{z-index:-1;}
+
+h2 {float: left;}
+/*Simple but needed */
+.centermytext 
+{text-align: center;}
